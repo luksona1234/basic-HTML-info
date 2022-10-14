@@ -10,6 +10,9 @@ let p8 = document.querySelector('.p8')
 let p9 = document.querySelector('.p9')
 let p10 = document.querySelector('.p10')
 let container = document.querySelector('.container')
+let info = document.querySelector('.info')
 
-
+p.addEventListener('click', ()=> {
+    container.style.display = 'none'
+})
 
