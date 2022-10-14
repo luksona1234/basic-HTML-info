@@ -14,5 +14,6 @@ let info = document.querySelector('.info')
 
 p.addEventListener('click', ()=> {
     container.style.display = 'none'
+    info.style.display = 'block'
 })
 
